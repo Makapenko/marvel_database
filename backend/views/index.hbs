@@ -1,0 +1,72 @@
+<div class='container'>
+  <h1>{{title}}</h1>
+  <p>Welcome to {{title}}</p>
+
+  <form action='/addDates' method='POST'>
+    <p>Парсинг дат</p>
+    <input type='submit' />
+  </form>
+
+  <form action='/addDatesNew' method='POST'>
+    <p>Парсинг дат - для сохранения в отдельный файл списка комиксов, которых ещё нет в бд</p>
+    <input type='submit' /> 
+  </form>
+
+  <form action='/deleteDates' method='post'>
+    <label for='year'>Выберите год для удаления:</label>
+    <select name='year' id='year'>
+
+      {{#each (range 1939 2023)}}
+        <option value='{{this}}'>{{this}}</option>
+      {{/each}}
+    </select>
+    <button type='submit'>Удалить данные за год</button>
+    из базы с месяцами
+  </form>
+
+  <button id='count-comics-btn'>Посчитать комиксы</button>
+  <input type='text' id='comics-count' readonly />
+  в базе с месяцами
+
+  <form action='/writeComicsNamesToFileFromDates' method='POST'>
+    <p>Сохранить все названия комисков из базы с датами в файл</p>
+    <input type='submit' />
+  </form>
+
+<p>---------------------------------------------------------------- </p>
+  <form action='/addComics' method='POST'>
+    <p>Парсинг комиксов</p>
+    <input type='submit' />
+  </form>
+<p>---------------------------------------------------------------- </p>
+
+
+  <form action='/change-comics-info' method='post'>
+    <button type='submit'>Добавить строки с появлениями героев и тд в бд</button>
+  </form>
+
+  <form action='/write-names-file' method='post'>
+    <button type='submit'>Создать файл со списком всех комиксов</button>
+  </form>
+  <form action='/write-without-url' method='post'>
+    <button type='submit'>Создать файл со списком всех комиксов без IMG-URL</button>
+  </form>
+  <p> ---------------------------------------------------------------- </p>
+  <form action='/save-images' method='post'>
+    <button type='submit'>Сохранить комикс в Yandex Cloud</button>
+  </form>
+  <form action='/save-images-from-page' method='post'>
+    <button type='submit'>Сохранить комикс со страницы вики в Yandex Cloud</button>
+  </form>
+
+  <form action='/save-preview-img' method='post'>
+    <button type='submit'>Сохранить список комиксов у которых нет превью</button>
+  </form>
+
+  <form action='/save-images-preview' method='post'>
+    <button type='submit'>Сохранить превью в бд из списка комиксов без превью</button>
+  </form>
+
+  <div id='forComicsTable'></div>
+
+</div>

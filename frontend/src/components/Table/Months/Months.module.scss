@@ -1,0 +1,18 @@
+.months {
+  display: flex;
+  // flex-wrap: wrap;
+  // gap: 10px;
+  margin-left: 100px;
+  position: sticky;
+  top: 0;
+
+  .month {
+    background-color: #ecf0f1;
+    // padding: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+
+    min-width: 100px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.comicsNames {
+  position: sticky;
+  left: 0;
+  text-align: center;
+
+  .comicName {
+    background-color: #ecf0f1;
+    border-radius: 3px;
+    height: 168px;
+    width: 100px;
+    outline: 1px solid #666;
+    text-align: center;
+  }
+}

@@ -1,0 +1,7 @@
+.comicsList {
+  display: flex;
+
+}
+.comic {
+  height: 250px;
+}

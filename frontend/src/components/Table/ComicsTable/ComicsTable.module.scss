@@ -1,0 +1,9 @@
+.allComics {
+  display: flex;
+  
+  .comics {
+    height: 168px;
+    width: 100px;
+    outline: 1px solid #666;
+  }
+}

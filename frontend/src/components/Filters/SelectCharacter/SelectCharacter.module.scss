@@ -1,0 +1,21 @@
+.FilterAppear {
+  padding: 5px 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+}
+
+
+.FilterAppear::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.FilterAppear::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.FilterAppear::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+/* .months {
+  display: flex;
+  margin-left: 100px;
+  position: sticky;
+  top: 0;
+}
+
+.month {
+  min-width: 100px;
+  text-align: center;
+
+  background-color: pink;
+}
+
+.namesAndComics {
+  display: flex;
+}
+
+.comicsNames {
+  position: sticky;
+  left: 0;
+  background-color: gray;
+  text-align: center;
+  
+}
+
+.comicName {
+  height: 168px;
+  width: 100px;
+  outline: 1px solid #666;
+}
+
+.allComics {
+  display: flex;
+}
+
+.comicsPerMonth {}
+
+.comics {
+  height: 168px;
+  width: 100px;
+  outline: 1px solid #666;
+}
+
+.comicsContainerImg {
+  background-color: red;
+  height: 150px;
+}
+
+.comicsImg {
+  height: 150px;
+  width: 100px;
+}
+
+.comicsTitle {
+  background-color: green;
+  text-align: center;
+} */

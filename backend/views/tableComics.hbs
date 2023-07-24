@@ -1,0 +1,251 @@
+<table border="1">
+  <tr>
+    <td colspan="12"> {{year}} </td>
+  </tr>
+  <tr>
+    <td> January </td>
+    <td> February </td>
+    <td> March </td>
+    <td> April </td>
+    <td> May </td>
+    <td> June </td>
+    <td> July </td>
+    <td> August </td>
+    <td> September </td>
+    <td> October </td>
+    <td> November </td>
+    <td> December </td>
+  </tr>
+</table>
+<div class="table">
+  <div>
+    {{#each januaryComics}}
+    <p>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/{{this}}.jpg?width=125" alt=""> <br>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each februaryComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each marchComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+    {{#each aprilComics}}
+  </div>
+  <div>
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each mayComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each juneComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each julyComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each augustComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each septemberComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each octoberComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each novemberComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+  <div>
+    {{#each decemberComics}}
+    <p>
+      {{this}}
+    </p>
+    {{/each}}
+  </div>
+</div>
+
+
+{{!-- <table border="1">
+  <tr>
+    <td colspan="12"> 2009 </td>
+  </tr>
+  <tr>
+    <td> January </td>
+    <td> February </td>
+    <td> March </td>
+    <td> April </td>
+    <td> May </td>
+    <td> June </td>
+    <td> July </td>
+    <td> August </td>
+    <td> September </td>
+    <td> October </td>
+    <td> November </td>
+    <td> December </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_600.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 600</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_601.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 601</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_602.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 602</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_603.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 603</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_604.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 604</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_605.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 605</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_606.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 606</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_607.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 607</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_608.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 608</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_609.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 609</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_610.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 610</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Amazing_Spider-Man_Vol_1_611.jpg?width=125"
+        alt="">
+      <p>Amazing Spider-Man Vol 1 611</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_14.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 14</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_15.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 15</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_16.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 16</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_17.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 17</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_18.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 18</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_19.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 19</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_20.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 20</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_21.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 21</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_22.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 22</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_23.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 23</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_24.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 24</p>
+    </td>
+    <td>
+      <img src="/get_img?url=https://marvel.fandom.com/wiki/Special:FilePath/Mighty Avengers_Vol_1_25.jpg?width=125"
+        alt="">
+      <p>Mighty Avengers Vol 1 25</p>
+    </td>
+  </tr>
+</table> --}}

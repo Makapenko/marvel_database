@@ -1,0 +1,22 @@
+
+.SelectedFilters {
+  display: flex;
+  gap: 5px;
+
+  .FilterItem {
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    .closeIcon {
+      background-color: transparent;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
